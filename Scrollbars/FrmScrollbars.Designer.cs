@@ -71,6 +71,7 @@
             this.Name = "FrmScrollbars";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Scrollbars";
+            this.Load += new System.EventHandler(this.FrmScrollbars_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

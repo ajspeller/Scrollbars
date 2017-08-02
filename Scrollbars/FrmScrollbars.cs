@@ -21,5 +21,10 @@ namespace Scrollbars
         {
             LblDemo.Text = HsbDemo.Value.ToString();
         }
+
+        private void FrmScrollbars_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
