@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Scrollbars
 {
-    public partial class Form1 : Form
+    public partial class FrmScrollbars : Form
     {
-        public Form1()
+        public FrmScrollbars()
         {
             InitializeComponent();
+        }
+
+        private void HsbDemo_Scroll(object sender, ScrollEventArgs e)
+        {
+            LblDemo.Text = HsbDemo.Value.ToString();
         }
     }
 }
